@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Cuentas claras",
+    "slug": "organizador",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logoCuentasClaras.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ff8c00"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ff8c00"
+      },
+      "package": "com.lautty_duran.organizador"
+    },
+    "web": {
+      "favicon": "./assets/adaptive-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "94ece3de-02a6-40ce-bc10-06a1b003c345"
+      }
+    },
+    "owner": "lautty_duran",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/94ece3de-02a6-40ce-bc10-06a1b003c345"
+    },
+    "notification": {
+      "icon": "./assets/iconCuentasClarasNotifications.png"
+    }
+  }
+}
